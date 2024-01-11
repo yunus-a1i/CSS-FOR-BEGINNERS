@@ -1,0 +1,50 @@
+universe Selector *
+
+*{
+    /* settting something here will apply to all */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* specificty over rules last written one */
+.gray{
+    color: gray;
+}
+
+/* !important this can override */
+
+/* Tag selector */
+
+/* multiple selector can be select using coma */
+h1,p{
+    color: red;
+}
+
+/* last rule overwrite */
+
+h1{
+    color: purple;
+}
+
+/* And for nested selector can be use using coma */
+
+/* ID selector */
+
+#para {
+    color: blue;
+}
+
+/* we can use highlight for class in span cause we have multiple span in document */
+
+.highlight {
+    background-color: rgb(217, 255, 0);
+    text-transform: uppercase;
+}
+
+/* class Selector */
+
+/* .gray {
+    color: yellowgreen;
+} */
+
+
+    
