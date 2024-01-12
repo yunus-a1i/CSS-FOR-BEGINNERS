@@ -1,5 +1,5 @@
 const dom =()=>{
-    let head = document.getElementsByTagName('body');
+    let head = document.getElementsByClassName('gray');
     console.log(head);
     head.style.backgroundColor = "black";
 }
