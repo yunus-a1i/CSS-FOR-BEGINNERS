@@ -1,0 +1,34 @@
+body {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background: #ffefd5;
+    /* rgb == red green blue and there values upto 255 max
+    where first digit 0 represent red second green and third blue
+    so if we give rgb(255,0,0) it gives red color same for the rest if we 
+    give second digit 255 and others two 0 it gives green same for the blue */
+    color: hsl(0, 0%, 0%);
+}
+
+p{
+    /* here rgba extra a represent alpha range from 0 t0 1
+    used for transparency */
+    /* color: rgba(0,0,0,0.5); */
+
+    /* Another way is hex code where first two represent red second two pair for green and last two for blue
+    it ranges from 0 to f digits 0 t0 9 and a to f if we use single the 000 
+    represent red green blue so if i give 000 it will be black
+    if it don't have pair it does not have shorthand for example #808080 is gray is not a pair*/
+    /* color: rgba(255, 0, 0, 0.712); */
+
+    /* hsl is hue saturation and lightness 
+    first digit hue which is range from 0 to 360 it's usually a wheel second represent saturtion in color 
+    top right corner has max last one is for lightness */
+    /* color: hsl(0, 0%, 100%); */
+
+    color: #333f;
+}
+
+/* coolers.co is color palettes picker  */
+/* WEBAIM is contrast checker */
+
