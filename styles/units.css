@@ -1,0 +1,44 @@
+/* https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units visit this to
+understand the depth */
+
+/* most browser have default font size of 1rem which 16px 
+can be check 
+1   Go to browser
+2   Go to setting
+3   Go to appearance 
+4   Font size default to medium which 16px
+*/
+
+/* for heading and buttons used rem and for their padding use em */
+
+/* if u want certain character in paragraph use ch which is 
+character unit usually used in magazines */
+
+/* if vh or vw unit is used the wild element should be */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 100vw; */
+    /* width: 100%; */
+    min-height: 100vh;
+}
+
+h1{
+    border: 1px solid red;
+    width: 50%;
+    font-size: 3rem;
+    padding: .5em;
+} 
+
+main {
+    
+    font-size: 2rem;
+}
+p{
+    font-size: 2rem;
+    width: 40ch;
+}
