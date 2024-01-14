@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+/* typography is the way that 
+text is arranged and presented */
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+/* input,button {
+    font: inherit;
+} */
+
+
+p {
+
+    /* text settings */
+
+    /* text-decoration: ; */
+    /* text-transform: uppercase; */
+    /* text-align: center; */
+    /* text-indent: 2em; */
+    /* line-height: ; */
+    /* letter-spacing: .125em; */
+    /* word-spacing: .1em; */
+
+    /* font settings */
+
+    /* font-family: monospace; */
+    /* font-weight: bolder; */
+    /* font-style: normal; */
+    
+}
