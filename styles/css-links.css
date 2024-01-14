@@ -1,0 +1,27 @@
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(207, 48%, 48%);
+}
+
+
+/* a:visited { 
+    color: purple;
+}  */
+
+a:hover, a:focus{
+    color: hsl(207, 48%, 48%,.8);
+    background-color: gold;
+}
+
+
+a:active {
+    color: red;
+}
