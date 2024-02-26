@@ -9,11 +9,11 @@ import '../styles/style.css';
 // import '../styles/menu.css';
 // import '../styles/display.css';
 // import '../styles/floats.css';
-// import '../styles/column.css';
+import '../styles/column.css';
 // import '../styles/position.css';
 // import '../styles/flexbox.css';
 // import '../styles/grid.css';
-import '../styles/images.css';
+// import '../styles/images.css';
 
 // import dom from './util/dom';
 
